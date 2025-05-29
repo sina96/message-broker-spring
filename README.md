@@ -36,11 +36,11 @@ This project includes a pre-configured `docker-compose.yml`.
 ### Start ElasticMQ & ActiveMQ:
 
 ```bash
-./mvnw clean install
+docker-compose up
 ```
 ## 🛠️ Run the Spring Boot App
 ```bash
-docker-compose up
+./mvnw clean install
 ```
 or with any IDE.
 You can configure the seeder broker in application.properties:
